@@ -13,6 +13,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        satoshi: ["var(--font-satoshi)"],
+        // satoshiItalic: ["var(--font-satoshi-italic)"],
+      },
+      colors: {
+        red: {
+          incore: "#E50013",
+        },
+      },
     },
   },
   plugins: [],
