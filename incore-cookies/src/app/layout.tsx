@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={satoshi.className}>{children}</body>
+      <body className={`flex flex-col ${satoshi.className}`}>{children}</body>
     </html>
   );
 }
